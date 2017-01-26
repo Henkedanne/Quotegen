@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	//border: 1px solid black;
+}
+body {
+	font-family: verdana;
+	
+}
+
+.wrapper {
+	margin: 100px auto;
+	width: 600px;
+	text-align: center;
+}
+.buttons {
+	margin-top: 40px;
+	padding: 5px;
+}
+button {
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 5px;
+	background-color: none;
+}
+
