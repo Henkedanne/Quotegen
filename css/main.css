@@ -4,14 +4,19 @@
 	//border: 1px solid black;
 }
 body {
-	font-family: verdana;
+	font-family: arial;
+	background-color: #D34747
 	
 }
 
 .wrapper {
 	margin: 100px auto;
-	width: 600px;
+	max-width: 400px;
+	padding: 20px;
 	text-align: center;
+	background-color: #FFA3A3;
+	box-shadow: 1px 1px 50px -10px #8F0D0D;
+	border-radius: 4px;
 }
 .buttons {
 	margin-top: 40px;
