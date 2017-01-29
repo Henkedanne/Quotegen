@@ -5,7 +5,10 @@
 }
 body {
 	font-family: arial;
-	background-color: #D34747
+	color: 	rgba(255,255,255,0.8);
+	height: 100vh;
+	background: linear-gradient(to bottom right, #FFBF00, #FF033E );
+	background-repeat: no-repeat;
 	
 }
 
@@ -14,18 +17,23 @@ body {
 	max-width: 400px;
 	padding: 20px;
 	text-align: center;
-	background-color: #FFA3A3;
+	background-color: rgba(255, 255, 255 ,0.2);
 	box-shadow: 1px 1px 50px -10px #8F0D0D;
 	border-radius: 4px;
 }
 .buttons {
 	margin-top: 40px;
 	padding: 5px;
+	width: 300px;
+	display: inline-flex;
+	justify-content: space-between;
+	
 }
 button {
 	padding: 10px;
 	font-size: 1rem;
 	border-radius: 5px;
-	background-color: none;
+	background-color: rgba(255, 255, 255 ,0.5);
+	border-style: none;
 }
 
