@@ -14,9 +14,8 @@ function randomizeQuote() {
 		}
 	var index = Math.floor(Math.random() * randNum.length);
 	var rand = randNum[index];
-	console.log(randNum);
 	randNum.splice(index, 1);
-	console.log(randNum);
+	
 	return quotes[rand];
 };		
 	 
