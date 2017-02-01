@@ -1,9 +1,9 @@
 var quoteHolder = document.querySelector('#quote');
 var quoteBtn = document.querySelector('#quote_btn');
 var twitterBtn = document.querySelector('#twit_btn');
-
-var quotes = ["Du ska inte döda", "Var som en fisk", "Du är ett ägg"];
+var author = document.querySelector('#author');
 var randNum = [];
+
 
 
 function randomizeQuote() {
@@ -16,14 +16,10 @@ function randomizeQuote() {
 	var rand = randNum[index];
 	randNum.splice(index, 1);
 	
-	return quotes[rand];
+	quoteHolder.innerHTML = quotes[rand].quote;
+	author.innerHTML = "- " + quotes[rand].author;
+	
 };		
-	 
 
-
-function getRandomQuote() {
-	quoteHolder.innerHTML = randomizeQuote();
-	};
-
-quoteBtn.addEventListener("click", getRandomQuote);
+quoteBtn.addEventListener("click", randomizeQuote);
 
