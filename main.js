@@ -20,6 +20,6 @@ function randomizeQuote() {
 	author.innerHTML = "- " + quotes[rand].author;
 	
 };		
-
+window.onload = randomizeQuote();
 quoteBtn.addEventListener("click", randomizeQuote);
 
