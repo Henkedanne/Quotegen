@@ -1,33 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 * {
 	margin: 0;
 	padding: 0;
 	//border: 1px solid black;
 }
+
 body {
-	font-family: arial;
+	font-family: 'Nunito', sans-serif;
 	color: 	rgba(255,255,255,1);
-	height: 100vh;
-	background: linear-gradient(to bottom right, #FCFAC4, #B2FFEF );
-	background-repeat: no-repeat;
+	background: url(bg_2.jpg) no-repeat center center fixed;
 	
 }
 h2 {
 	color: #888;
 	margin: 0 auto;
 }
-.wrapper {
 
-	
-}
 
 .quote-wrap {
 	
-	margin: 100px auto;
+	margin: 100px auto 0px auto;
 	max-width: 400px;
 	padding: 20px;
 	vertical-align: center;
 	text-align: center;
-	background-color: rgba(255, 255, 255 ,0.4);
+	background-color: rgba(255, 255, 255 ,0.7);
 	box-shadow: 0px 10px 40px -20px rgba(0, 0, 0 ,0.4);
 	border-radius: 4px;
 }
@@ -62,24 +59,23 @@ h2 {
 }
 
 .btn-wrapper {
+	margin:0 auto;
+	max-width: 400px;
 	
-	padding: 20px;
-	background-color: rgba(255, 255, 255 ,0.2);
-	box-shadow: 0px -10px 40px -20px rgba(0, 0, 0 ,0.4);
-	border-radius: 4px
 }
 .buttons {
 	
 	padding: 5px;
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	
 }
 
 button {
-	margin: 30px;
-	padding: 10px;
+	font-family: 'Nunito', sans-serif;
+	margin: 10px;
+	padding: 10px 15px;
 	font-size: 1rem;
 	border-radius: 5px;
 	color: #555;
@@ -87,6 +83,11 @@ button {
 	border-style: none;
 	outline: none;
 	box-shadow: 0px 10px 20px -10px rgba(0, 0, 0 ,0.4);
+	transition: all 0.1s ease-in;
 
+}
+button:hover {
+	background-color: rgba(255, 255, 255 ,1);
+	cursor: pointer;
 }
 
